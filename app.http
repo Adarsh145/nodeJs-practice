@@ -1,0 +1,19 @@
+get http://localhost:3000/players/
+
+get http://localhost:3000/players/8/ 
+
+put http://localhost:3000/players/8/
+Content-Type: application/json
+{
+  "playerName": "Raju"
+}
+
+get http://localhost:3000/matches/18/ 
+
+get http://localhost:3000/players/8/matches
+
+get http://localhost:3000/matches/2/players
+
+
+### FOR API 7 
+get http://localhost:3000/players/1/playerScores
